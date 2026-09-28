@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Laksh Shihora - AI/ML Developer Portfolio">
+<title>Laksh Shihora | AI/ML Developer</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+<header>
+  <a class="logo" href="#home">Laksh<span>Shihora</span></a>
+  <nav>
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+    <a href="#blog">Blog</a><a href="#contact">Contact</a>
+  </nav>
+  <button id="menu">☰</button>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div>
+    <p class="tag">AI / ML DEVELOPER</p>
+    <h1>Hi, I'm <span>Laksh Shihora</span></h1>
+    <p>I build simple digital experiences, explore AI/ML, and share what I learn.</p>
+    <div class="buttons"><a class="btn" href="#projects">View Projects</a><a class="btn ghost" href="#contact">Contact</a></div>
+    <div class="social">
+  <a href="#" aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+  <a href="#" aria-label="GitHub" title="GitHub"><i class="fab fa-github"></i></a>
+</div>
+  </div>
+  <div class="avatar">LS</div>
+</section>
+
+<section id="about">
+  <p class="tag">ABOUT</p><h2>About Me</h2>
+  <p class="lead">I'm a technology enthusiast focused on artificial intelligence, machine learning, software development and web technology. I enjoy learning, solving problems and turning ideas into useful projects.</p>
+</section>
+
+<section id="skills">
+  <p class="tag">SKILLS</p><h2>What I Use</h2>
+  <div class="chips">
+    <span>Python</span><span>Java</span><span>C / C++</span><span>HTML</span><span>CSS</span>
+    <span>JavaScript</span><span>SQL</span><span>Machine Learning</span><span>Git</span><span>GitHub</span>
+  </div>
+</section>
+
+<section id="projects">
+  <p class="tag">PROJECTS</p><h2>Selected Work</h2>
+  <div class="grid">
+    <article><b>AI / ML</b><h3>AI Study Planner</h3><p>Smart planning system for organizing subjects, tasks and schedules.</p></article>
+    <article><b>DATA</b><h3>Analytics Dashboard</h3><p>Dashboard for visualizing datasets and finding useful insights.</p></article>
+    <article><b>WEB</b><h3>Personal Portfolio</h3><p>A responsive portfolio and blog built with HTML, CSS and JavaScript.</p></article>
+  </div>
+</section>
+
+<section id="blog">
+  <p class="tag">BLOG</p><h2>Latest Articles</h2>
+  <input id="search" placeholder="Search articles...">
+  <div id="posts" class="grid"></div>
+</section>
+
+<div id="blogModal" class="modal" onclick="if(event.target===this)closeBlog()">
+  <div class="modal-box">
+    <button class="close" onclick="closeBlog()" aria-label="Close">×</button>
+    <span id="modalTag" class="tag"></span>
+    <small id="modalDate"></small>
+    <h2 id="modalTitle"></h2>
+    <p id="modalText" class="modal-intro"></p>
+    <p id="modalBody"></p>
+  </div>
+</div>
+
+<section id="contact">
+  <p class="tag">CONTACT</p><h2>Let's Connect</h2>
+  <p class="lead">Have an idea, project or opportunity? Send me a message.</p>
+  <form id="contactForm">
+    <input required placeholder="Your name"><input required type="email" placeholder="Your email">
+    <textarea required rows="5" placeholder="Your message"></textarea>
+    <button class="btn" type="submit">Send Message</button>
+  </form>
+  <p class="email">Lakshshihora@gmail.com · Surat, India</p>
+<div class="contact-social">
+  <a href="#" aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+  <a href="#" aria-label="GitHub" title="GitHub"><i class="fab fa-github"></i></a>
+</div>
+</section>
+</main>
+
+<footer>© 2026 Laksh Shihora · Building. Learning. Sharing.</footer>
+<script src="script.js"></script>
+</body>
+</html>
