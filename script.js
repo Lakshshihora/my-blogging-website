@@ -1,4 +1,4 @@
-const posts=[
+    const posts=[
 {title:"How I Started Learning Artificial Intelligence",date:"September 5, 2026",text:"My journey into artificial intelligence and the lessons I learned along the way.",tag:"Education"},
 {title:"5 Technologies Every Student Should Learn",date:"August 28, 2026",text:"A practical guide to technologies that can help students build a strong technical foundation.",tag:"Tech"},
 {title:"Building My First Real Project",date:"August 15, 2026",text:"What I learned while turning an idea into a working project.",tag:"Career"},
